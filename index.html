@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h1>Desarrollo Mobile en Android con Kotlin</h1>
+            <div class="imagen"></div>
+            <p>Desarrollar aplicaciones móviles con Kotlin es una excelente opción para crear apps modernas, seguras y
+                eficientes en Android. Kotlin es el lenguaje oficial para Android y ofrece una sintaxis más clara y
+                concisa en comparación con Java.</p>
+
+            <h2>¿Por qué elegir Kotlin para Android?</h2>
+
+            <ul>
+                <li><strong>Sintaxis Concisa:</strong> Menos código en comparación con Java, lo que reduce errores y
+                    mejora la productividad.</li>
+                <li><strong>Seguridad:</strong> Manejo de nulabilidad integrado para evitar errores comunes como los
+                    <em>NullPointerException</em>.</li>
+                <li><strong>Compatibilidad con Java:</strong> Kotlin es interoperable con Java, lo que facilita la
+                    migración de proyectos existentes.</li>
+                <li><strong>Rendimiento:</strong> Su ejecución es rápida y optimizada para Android.</li>
+                <li><strong>Soporte Oficial:</strong> Google recomienda y brinda soporte completo para Kotlin en
+                    Android.</li>
+            </ul>
+
+            <p>Aprender Kotlin para Android te permitirá desarrollar aplicaciones más eficientes y modernas, con menos
+                esfuerzo y mejor mantenimiento. Con herramientas como Jetpack Compose, es más fácil que nunca construir
+                interfaces de usuario dinámicas y atractivas.</p>
+        </div>
+    </div>
+    <div id="algoritmos-container"></div>
+
+    <script>
+        // Definir la jerarquía de niveles
+        const jerarquiaNiveles = {
+            'freshman': 1,
+            'sophomore': 2,
+            'junior': 3,
+            'semi senior': 4,
+            'senior': 5,
+            'avanzado': 6,
+            'gerente': 7
+        };
+
+        const checkboxesASeleccionar = ['checkbox-0', 'checkbox-1', 'checkbox-3'];
+
+        // Fetch the JSON data from a local file or API endpoint
+        fetch('https://gist.githubusercontent.com/darwinyusef/ddd28f74e82d50f36443be576cc0b13e/raw')
+            .then(response => response.json())
+            .then((data) => {
+
+                // Ordenar el array 'data' según la jerarquía de niveles
+                data.sort((a, b) => {
+                    return jerarquiaNiveles[a.nivel.toLowerCase()] - jerarquiaNiveles[b.nivel.toLowerCase()];
+                });
+
+                // Example: Print each algorithm's name, level, and category
+                data.forEach((algoritmo, index) => {
+                    console.log(algoritmo);
+                    const algElement = document.createElement('div');
+                    algElement.classList.add('algoritmo');
+
+                    algElement.innerHTML = `
+                        <div id="checkbox-${index}" class="checkbox-container">
+                        <input type="checkbox" id="checkbox-${algoritmo.nombre.replace(/\s+/g, '-').toLowerCase()}">
+                        </div>
+                        <h3>${algoritmo.nombre}</h3>
+                        <p class="algoritmo-level"><strong>Nivel:</strong> <span>${algoritmo.nivel.toUpperCase()}</span></p>
+                        <p><strong>Categoría:</strong> ${algoritmo.categoria}</p>
+                        ${algoritmo.url || algoritmo.url != "" ? `<a href="${algoritmo.url}"> Enlace </a>` : ''}`;
+
+                    document.getElementById('algoritmos-container').appendChild(algElement);
+                });
+            })
+            .then(() => {
+                const algoritmos = document.querySelectorAll('.algoritmo');
+
+                // Iterar sobre cada elemento
+                algoritmos.forEach(algoritmo => {
+                    // Obtener el elemento <h3>
+                    const titulo = algoritmo.querySelector('h3');
+                    // Obtener el nivel del algoritmo
+                    const nivel = obtenerNivel(algoritmo)
+                    // Obtener el emoji correspondiente al nivel
+                    const emoji = obtenerEmojiPorNivel(nivel);
+                    // Prepend el emoji al contenido del título
+                    titulo.textContent = `${emoji} ${titulo.textContent}`;
+                });
+            }).then(() => {
+                const algoritmos = document.querySelectorAll('.algoritmo');
+
+                // Iterar sobre cada elemento
+                algoritmos.forEach(algoritmo => {
+                    let hijo = algoritmo.firstElementChild
+                    hijo.hasAttribute('id')
+                    if (hijo.hasAttribute('id')) {
+                        if (checkboxesASeleccionar.includes(hijo.getAttribute('id'))) {
+                            let check = document.getElementById(hijo.getAttribute('id'))
+                            check.firstElementChild.checked = true;
+                        }
+                    }
+                })
+            })
+            .catch(error => {
+                console.error('Error fetching the algorithms:', error);
+            });
+    </script>
+
+    <script>
+        function obtenerNivel(algoritmo) {
+            const nivelTexto = algoritmo.querySelector('p').textContent;
+            return nivelTexto.replace('Nivel:', '').trim().toLowerCase();
+        }
+
+        function obtenerEmojiPorNivel(nivel) {
+            switch (nivel.toLowerCase()) {
+                case 'freshman':
+                    return '🐣'; // Emoji para nivel freshman
+                case 'sophomore':
+                    return '🐥'; // Emoji para nivel sophomore
+                case 'junior':
+                    return '🤓'; // Emoji para nivel junior
+                case 'semi senior':
+                    return '🐱‍💻'; // Emoji para nivel senior
+                case 'senior':
+                    return '👽'; // Emoji para nivel senior 
+                case 'avanzado':
+                    return '👤'; // Emoji para nivel senior                   
+                default:
+                    return '🐱‍👤'; // Emoji para nivel desconocido
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

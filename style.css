@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  line-height: 1.2;
+}
+h1,
+h2 {
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+ul {
+  padding-left: 20px;
+}
+.imagen {
+  background-image: url(./info.jpg);
+  width: 100%;
+  background-position: center -140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+#algoritmos-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.algoritmo h3 {
+  margin: 5px 0;
+  width: 85%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.algoritmo p {
+  margin: 0;
+  padding: 0;
+}
+
+.algoritmo {
+  position: relative;
+  text-align: left;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.algoritmo:hover {
+  background-color: lightgray;
+}
+
+.algoritmo-level span {
+  font-size: 0.8em;
+  color: red;
+  font-weight: bold;
+}
+
+/* Estilo para el checkbox personalizado */
+.checkbox-container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkbox-container input[type="checkbox"]:checked {
+  background-color: #4caf50;
+}
+
+.checkbox-container input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: #4caf50;
+  border-radius: 2px;
+}
+
+/* Estilo para la etiqueta del checkbox */
+.checkbox-container label {
+  margin-left: 10px;
+  font-size: 1em;
+  color: #555;
+}

@@ -1,0 +1,914 @@
+[
+  {
+    "nombre": "Activity",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Fragment",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Intent",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "View",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "TextView",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Button",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "EditText",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "ImageView",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "RecyclerView",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "ConstraintLayout",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "LinearLayout",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "RelativeLayout",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "CoordinatorLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "CardView",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "FloatingActionButton",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Snackbar",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Toolbar",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "NavigationView",
+    "nivel": "sophomore",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "DrawerLayout",
+    "nivel": "sophomore",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "ViewPager",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "TabLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "BottomNavigationView",
+    "nivel": "sophomore",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "AppBarLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "MotionLayout",
+    "nivel": "junior",
+    "categoria": "Animation",
+    "url": ""
+  },
+  {
+    "nombre": "DataBinding",
+    "nivel": "junior",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "ViewBinding",
+    "nivel": "freshman",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "LiveData",
+    "nivel": "junior",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "ViewModel",
+    "nivel": "junior",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "Room",
+    "nivel": "junior",
+    "categoria": "Database",
+    "url": ""
+  },
+  {
+    "nombre": "Retrofit",
+    "nivel": "junior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "OkHttp",
+    "nivel": "junior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Glide",
+    "nivel": "freshman",
+    "categoria": "Image Loading",
+    "url": ""
+  },
+  {
+    "nombre": "Picasso",
+    "nivel": "freshman",
+    "categoria": "Image Loading",
+    "url": ""
+  },
+  {
+    "nombre": "Coil",
+    "nivel": "freshman",
+    "categoria": "Image Loading",
+    "url": ""
+  },
+  {
+    "nombre": "Hilt",
+    "nivel": "senior",
+    "categoria": "Dependency Injection",
+    "url": ""
+  },
+  {
+    "nombre": "Dagger",
+    "nivel": "senior",
+    "categoria": "Dependency Injection",
+    "url": ""
+  },
+  {
+    "nombre": "Koin",
+    "nivel": "semi senior",
+    "categoria": "Dependency Injection",
+    "url": ""
+  },
+  {
+    "nombre": "Coroutines",
+    "nivel": "junior",
+    "categoria": "Concurrency",
+    "url": ""
+  },
+  {
+    "nombre": "Flow",
+    "nivel": "junior",
+    "categoria": "Concurrency",
+    "url": ""
+  },
+  {
+    "nombre": "StateFlow",
+    "nivel": "junior",
+    "categoria": "Concurrency",
+    "url": ""
+  },
+  {
+    "nombre": "SharedFlow",
+    "nivel": "junior",
+    "categoria": "Concurrency",
+    "url": ""
+  },
+  {
+    "nombre": "WorkManager",
+    "nivel": "junior",
+    "categoria": "Background",
+    "url": ""
+  },
+  {
+    "nombre": "AlarmManager",
+    "nivel": "junior",
+    "categoria": "Background",
+    "url": ""
+  },
+  {
+    "nombre": "BroadcastReceiver",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "ContentProvider",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Service",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "JobScheduler",
+    "nivel": "junior",
+    "categoria": "Background",
+    "url": ""
+  },
+  {
+    "nombre": "Navigation Component",
+    "nivel": "junior",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "Paging Library",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "RecyclerView Adapter",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "RecyclerView ViewHolder",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Custom View",
+    "nivel": "junior",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Property Animation",
+    "nivel": "junior",
+    "categoria": "Animation",
+    "url": ""
+  },
+  {
+    "nombre": "Transition API",
+    "nivel": "senior",
+    "categoria": "Animation",
+    "url": ""
+  },
+  {
+    "nombre": "Vector Drawable",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Shape Drawable",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Gradient Drawable",
+    "nivel": "freshman",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Custom Drawable",
+    "nivel": "junior",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "Navigation Graph",
+    "nivel": "junior",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "Safe Args",
+    "nivel": "junior",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "MultiDex",
+    "nivel": "sophomore",
+    "categoria": "Build",
+    "url": ""
+  },
+  {
+    "nombre": "Gradle Kotlin DSL",
+    "nivel": "sophomore",
+    "categoria": "Build",
+    "url": ""
+  },
+  {
+    "nombre": "Proguard",
+    "nivel": "senior",
+    "categoria": "Build",
+    "url": ""
+  },
+  {
+    "nombre": "R8",
+    "nivel": "senior",
+    "categoria": "Build",
+    "url": ""
+  },
+  {
+    "nombre": "Lint",
+    "nivel": "freshman",
+    "categoria": "Tooling",
+    "url": ""
+  },
+  {
+    "nombre": "Android Profiler",
+    "nivel": "junior",
+    "categoria": "Tooling",
+    "url": ""
+  },
+  {
+    "nombre": "LeakCanary",
+    "nivel": "junior",
+    "categoria": "Tooling",
+    "url": ""
+  },
+  {
+    "nombre": "Espresso",
+    "nivel": "junior",
+    "categoria": "Testing",
+    "url": ""
+  },
+  {
+    "nombre": "JUnit",
+    "nivel": "freshman",
+    "categoria": "Testing",
+    "url": ""
+  },
+  {
+    "nombre": "Mockito",
+    "nivel": "junior",
+    "categoria": "Testing",
+    "url": ""
+  },
+  {
+    "nombre": "Robolectric",
+    "nivel": "senior",
+    "categoria": "Testing",
+    "url": ""
+  },
+  {
+    "nombre": "UI Automator",
+    "nivel": "senior",
+    "categoria": "Testing",
+    "url": ""
+  },
+  {
+    "nombre": "Firebase Authentication",
+    "nivel": "junior",
+    "categoria": "Firebase",
+    "url": ""
+  },
+  {
+    "nombre": "Firebase Realtime Database",
+    "nivel": "junior",
+    "categoria": "Firebase",
+    "url": ""
+  },
+  {
+    "nombre": "Firebase Firestore",
+    "nivel": "junior",
+    "categoria": "Firebase",
+    "url": ""
+  },
+  {
+    "nombre": "Firebase Cloud Messaging",
+    "nivel": "junior",
+    "categoria": "Firebase",
+    "url": ""
+  },
+  {
+    "nombre": "Firebase Analytics",
+    "nivel": "junior",
+    "categoria": "Firebase",
+    "url": ""
+  },
+  {
+    "nombre": "Crashlytics",
+    "nivel": "junior",
+    "categoria": "Firebase",
+    "url": ""
+  },
+  {
+    "nombre": "ML Kit",
+    "nivel": "senior",
+    "categoria": "Firebase",
+    "url": ""
+  },
+  {
+    "nombre": "Google Maps API",
+    "nivel": "junior",
+    "categoria": "Maps",
+    "url": ""
+  },
+  {
+    "nombre": "Location Services",
+    "nivel": "junior",
+    "categoria": "Maps",
+    "url": ""
+  },
+  {
+    "nombre": "Beacon API",
+    "nivel": "senior",
+    "categoria": "Location",
+    "url": ""
+  },
+  {
+    "nombre": "SensorManager",
+    "nivel": "freshman",
+    "categoria": "Hardware",
+    "url": ""
+  },
+  {
+    "nombre": "Camera API",
+    "nivel": "junior",
+    "categoria": "Hardware",
+    "url": ""
+  },
+  {
+    "nombre": "OpenGL ES",
+    "nivel": "senior",
+    "categoria": "Graphics",
+    "url": ""
+  },
+  {
+    "nombre": "Vulkan",
+    "nivel": "senior",
+    "categoria": "Graphics",
+    "url": ""
+  },
+  {
+    "nombre": "ExoPlayer",
+    "nivel": "junior",
+    "categoria": "Media",
+    "url": ""
+  },
+  {
+    "nombre": "MediaPlayer",
+    "nivel": "freshman",
+    "categoria": "Media",
+    "url": ""
+  },
+  {
+    "nombre": "AudioManager",
+    "nivel": "freshman",
+    "categoria": "Media",
+    "url": ""
+  },
+  {
+    "nombre": "VideoView",
+    "nivel": "freshman",
+    "categoria": "Media",
+    "url": ""
+  },
+  {
+    "nombre": "ConstraintSet",
+    "nivel": "junior",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "CoordinatorLayout Behavior",
+    "nivel": "senior",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "FragmentManager",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Lifecycle Observer",
+    "nivel": "junior",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "SavedStateHandle",
+    "nivel": "junior",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "NavigationUI",
+    "nivel": "junior",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "AppWidgetProvider",
+    "nivel": "sophomore",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "DataStore",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "PreferenceFragmentCompat",
+    "nivel": "junior",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "ViewPager2",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "BottomNavigationView",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "RecyclerView",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "FloatingActionButton",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "ConstraintLayout",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "SwipeRefreshLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "DrawerLayout",
+    "nivel": "sophomore",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "ViewPager2",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "CardView",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "AppBarLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "TabLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "MaterialButton",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "NavigationComponent",
+    "nivel": "advanced",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "LiveData",
+    "nivel": "advanced",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "ViewModel",
+    "nivel": "advanced",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "DataBinding",
+    "nivel": "advanced",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "Room",
+    "nivel": "advanced",
+    "categoria": "Database",
+    "url": ""
+  },
+  {
+    "nombre": "WorkManager",
+    "nivel": "advanced",
+    "categoria": "Background Process",
+    "url": ""
+  },
+  {
+    "nombre": "Retrofit",
+    "nivel": "advanced",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Glide",
+    "nivel": "sophomore",
+    "categoria": "Image Loading",
+    "url": ""
+  },
+  {
+    "nombre": "Coil",
+    "nivel": "sophomore",
+    "categoria": "Image Loading",
+    "url": ""
+  },
+  {
+    "nombre": "NavigationDrawer",
+    "nivel": "sophomore",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "FragmentContainerView",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "MotionLayout",
+    "nivel": "advanced",
+    "categoria": "Animation",
+    "url": ""
+  },
+  {
+    "nombre": "ComposeButton",
+    "nivel": "beginner",
+    "categoria": "Jetpack Compose",
+    "url": ""
+  },
+  {
+    "nombre": "LazyColumn",
+    "nivel": "sophomore",
+    "categoria": "Jetpack Compose",
+    "url": ""
+  },
+  {
+    "nombre": "ModalBottomSheet",
+    "nivel": "sophomore",
+    "categoria": "Jetpack Compose",
+    "url": ""
+  },
+  {
+    "nombre": "BottomNavigationView",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "RecyclerView",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "FloatingActionButton",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "ConstraintLayout",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "SwipeRefreshLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "DrawerLayout",
+    "nivel": "sophomore",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "ViewPager2",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "CardView",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "AppBarLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "TabLayout",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "MaterialButton",
+    "nivel": "beginner",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "NavigationComponent",
+    "nivel": "advanced",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "LiveData",
+    "nivel": "advanced",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "ViewModel",
+    "nivel": "advanced",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "DataBinding",
+    "nivel": "advanced",
+    "categoria": "Architecture",
+    "url": ""
+  },
+  {
+    "nombre": "Room",
+    "nivel": "advanced",
+    "categoria": "Database",
+    "url": ""
+  },
+  {
+    "nombre": "WorkManager",
+    "nivel": "advanced",
+    "categoria": "Background Process",
+    "url": ""
+  },
+  {
+    "nombre": "Retrofit",
+    "nivel": "advanced",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Glide",
+    "nivel": "sophomore",
+    "categoria": "Image Loading",
+    "url": ""
+  },
+  {
+    "nombre": "Coil",
+    "nivel": "sophomore",
+    "categoria": "Image Loading",
+    "url": ""
+  },
+  {
+    "nombre": "NavigationDrawer",
+    "nivel": "sophomore",
+    "categoria": "Navigation",
+    "url": ""
+  },
+  {
+    "nombre": "FragmentContainerView",
+    "nivel": "sophomore",
+    "categoria": "UI",
+    "url": ""
+  },
+  {
+    "nombre": "MotionLayout",
+    "nivel": "advanced",
+    "categoria": "Animation",
+    "url": ""
+  },
+  {
+    "nombre": "ComposeButton",
+    "nivel": "beginner",
+    "categoria": "Jetpack Compose",
+    "url": ""
+  },
+  {
+    "nombre": "LazyColumn",
+    "nivel": "sophomore",
+    "categoria": "Jetpack Compose",
+    "url": ""
+  },
+  {
+    "nombre": "ModalBottomSheet",
+    "nivel": "sophomore",
+    "categoria": "Jetpack Compose",
+    "url": ""
+  }
+]
